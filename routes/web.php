@@ -25,4 +25,5 @@ Route::group(['prefix' => 'admin'], function () {
     Route::get('manageSupervisor','AdminController@supervisor');
     Route::get('manageProfessor','AdminController@professor');
     Route::get('manageClassroom','AdminController@classroom');
+    Route::get('manageTimetable','AdminController@timetable');
 });

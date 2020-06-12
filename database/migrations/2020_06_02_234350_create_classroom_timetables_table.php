@@ -18,9 +18,10 @@ class CreateClassroomTimetablesTable extends Migration
             $table->string('day');
             $table->integer('session_number');
             $table->string('department');
-            $table->integer('classroom_number');
+            $table->string('classroom_number');
             $table->string('classgroup_name')->nullable();
             $table->string('professor_id')->nullable();
+            $table->string('professor_name')->nullable();
             $table->timestamps();
         });
     }

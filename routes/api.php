@@ -26,6 +26,8 @@ use Illuminate\Support\Facades\Route;
     Route::delete('admin/manageProfessor/{id}','AdminController@destroy');
     Route::post('admin/manageProfessor/addProf','AdminController@addUser');
     Route::post('admin/manageProfessor/editProf','AdminController@editUser');
+
+    Route::post('admin/timetable/save','AdminController@saveTimetable');
 // });
 
 Route::post('savePresence','PresenceArchiveController@savePresence');

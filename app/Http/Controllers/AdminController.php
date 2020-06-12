@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use App\ClassRoom;
+use App\ClassGroup;
+use App\ClassroomTimetable;
 use Illuminate\Http\Request;
 use App\User;
 use Illuminate\Support\Facades\Auth;
@@ -23,6 +25,29 @@ class AdminController extends Controller
     public function classroom(){
         $classes=ClassRoom::all();
         return view('users.administration.ManageClassroom')->with('classes',$classes);
+    }
+
+    public function timetable(){
+        $timetable = ClassroomTimetable::all();
+        $professor = User::where('type','Professor')->get();
+        $classroom = ClassRoom::all();
+        $classgroup = ClassGroup::all();
+        return view('users.administration.ManageTimetable')->with('classgroup',$classgroup)
+                                                           ->with('classroom',$classroom)
+                                                           ->with('timetable',$timetable)
+                                                           ->with('professor',$professor);
+    }
+
+    public function saveTimetable(Request $req){
+        $tt = new ClassroomTimetable;
+        $tt->day = $req->get('day');
+        $tt->session_number = $req->get('session_number');
+        $tt->department = $req->get('department');
+        $tt->classroom_number = $req->get('classroom_number');
+        $tt->classgroup_name = $req->get('classgroup_name');
+        $tt->professor_id = $req->get('professor_id');
+        $tt->professor_name = $req->get('professor_name');
+        $tt->save();
     }
 
     public function addUser(Request $req){

@@ -14,6 +14,7 @@ class DatabaseSeeder extends Seeder
             UserSeeder::class,
             ClassroomsSeeder::class,
             ClassroomTimetableSeeder::class,
+            ClassgroupSeeder::class,
             ]);
     }
 }

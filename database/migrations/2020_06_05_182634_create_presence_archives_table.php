@@ -19,7 +19,7 @@ class CreatePresenceArchivesTable extends Migration
             $table->string('day');
             $table->integer('session');
             $table->string('department');
-            $table->integer('classroom_number');
+            $table->string('classroom_number');
             $table->integer('professor_id');
             $table->string('professor_name');
             $table->string('classgroup_name');

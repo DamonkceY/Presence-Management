@@ -40,7 +40,9 @@
                                 <li class="nav-item"><a href="/admin/manageProfessor" class="nav-link">Manage Professors</a></li>
                                 <li class="nav-item"><span class="nav-link">|</span></li>
                                 <li class="nav-item"><a href="/admin/manageClassroom" class="nav-link">Manage classes</a></li>
-                            @elseif (Auth::user()->type == 'Supervisor')
+                                <li class="nav-item"><span class="nav-link">|</span></li> 
+                                <li class="nav-item"><a href="/admin/manageTimetable" class="nav-link">Manage Timetable</a></li>
+                                @elseif (Auth::user()->type == 'Supervisor')
                                 <li>supervisor</li>
                             @elseif (Auth::user()->type == 'Professor')
                                 <li>professor</li>

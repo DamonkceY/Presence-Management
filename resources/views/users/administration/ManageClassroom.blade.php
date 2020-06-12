@@ -2,7 +2,7 @@
 @section('content')
 <div class="container">
     @foreach ($classes as $item)
-        {{ $item->number }}
+        {{ $item->name }}
     @endforeach
 </div>
 @endsection

@@ -14,157 +14,157 @@ class ClassroomsSeeder extends Seeder
     {
         //Computer Science classrooms;
         ClassRoom::create(
-            ['department'=>'Computer Science','number'=>1,'name'=>null]
+            ['department'=>'Computer Science','name'=>'I1']
         );
         ClassRoom::create(
-            ['department'=>'Computer Science','number'=>2,'name'=>null]
+            ['department'=>'Computer Science','name'=>'I2']
         );
         ClassRoom::create(
-            ['department'=>'Computer Science','number'=>3,'name'=>null]
+            ['department'=>'Computer Science','name'=>'I3']
         );
         ClassRoom::create(
-            ['department'=>'Computer Science','number'=>4,'name'=>null]
+            ['department'=>'Computer Science','name'=>'I4']
         );
         ClassRoom::create(
-            ['department'=>'Computer Science','number'=>5,'name'=>null]
+            ['department'=>'Computer Science','name'=>'I5']
         );
         ClassRoom::create(
-            ['department'=>'Computer Science','number'=>6,'name'=>null]
+            ['department'=>'Computer Science','name'=>'I6']
         );
         ClassRoom::create(
-            ['department'=>'Computer Science','number'=>7,'name'=>null]
+            ['department'=>'Computer Science','name'=>'I7']
         );
         ClassRoom::create(
-            ['department'=>'Computer Science','number'=>8,'name'=>null]
+            ['department'=>'Computer Science','name'=>'I8']
         );
         ClassRoom::create(
-            ['department'=>'Computer Science','number'=>9,'name'=>null]
+            ['department'=>'Computer Science','name'=>'I9']
         );
         ClassRoom::create(
-            ['department'=>'Computer Science','number'=>10,'name'=>null]
+            ['department'=>'Computer Science','name'=>'I10']
         );
         ClassRoom::create(
-            ['department'=>'Computer Science','number'=>11,'name'=>null]
+            ['department'=>'Computer Science','name'=>'I11']
         );
         ClassRoom::create(
-            ['department'=>'Computer Science','number'=>12,'name'=>null]
+            ['department'=>'Computer Science','name'=>'I12']
         );
         ClassRoom::create(
-            ['department'=>'Computer Science','number'=>null,'name'=>'LI1']
+            ['department'=>'Computer Science','name'=>'Labo.LI1']
         );
         ClassRoom::create(
-            ['department'=>'Computer Science','number'=>null,'name'=>'LI2']
+            ['department'=>'Computer Science','name'=>'Labo.LI2']
         );
         ClassRoom::create(
-            ['department'=>'Computer Science','number'=>null,'name'=>'LI1BIS']
+            ['department'=>'Computer Science','name'=>'Labo.LI1BIS']
         );
         ClassRoom::create(
-            ['department'=>'Computer Science','number'=>null,'name'=>'LI2BIS']
+            ['department'=>'Computer Science','name'=>'Labo.LI2BIS']
         );
         ClassRoom::create(
-            ['department'=>'Computer Science','number'=>null,'name'=>'FC']
+            ['department'=>'Computer Science','name'=>'Labo.FC']
         );
 
 
         //Mechanical & Electrical engineering classrooms;
         ClassRoom::create(
-            ['department'=>'Mechanical & Electrical engineering','number'=>1,'name'=>null]
+            ['department'=>'Mechanical & Electrical engineering','name'=>'M1']
         );
         ClassRoom::create(
-            ['department'=>'Mechanical & Electrical engineering','number'=>2,'name'=>null]
+            ['department'=>'Mechanical & Electrical engineering','name'=>'M2']
         );
         ClassRoom::create(
-            ['department'=>'Mechanical & Electrical engineering','number'=>3,'name'=>null]
+            ['department'=>'Mechanical & Electrical engineering','name'=>'M3']
         );
         ClassRoom::create(
-            ['department'=>'Mechanical & Electrical engineering','number'=>4,'name'=>null]
+            ['department'=>'Mechanical & Electrical engineering','name'=>'M4']
         );
         ClassRoom::create(
-            ['department'=>'Mechanical & Electrical engineering','number'=>5,'name'=>null]
+            ['department'=>'Mechanical & Electrical engineering','name'=>'M5']
         );
         ClassRoom::create(
-            ['department'=>'Mechanical & Electrical engineering','number'=>6,'name'=>null]
+            ['department'=>'Mechanical & Electrical engineering','name'=>'M6']
         );
         ClassRoom::create(
-            ['department'=>'Mechanical & Electrical engineering','number'=>7,'name'=>null]
+            ['department'=>'Mechanical & Electrical engineering','name'=>'M7']
         );
         ClassRoom::create(
-            ['department'=>'Mechanical & Electrical engineering','number'=>8,'name'=>null]
+            ['department'=>'Mechanical & Electrical engineering','name'=>'M8']
         );
         ClassRoom::create(
-            ['department'=>'Mechanical & Electrical engineering','number'=>9,'name'=>null]
+            ['department'=>'Mechanical & Electrical engineering','name'=>'M9']
         );
         ClassRoom::create(
-            ['department'=>'Mechanical & Electrical engineering','number'=>10,'name'=>null]
+            ['department'=>'Mechanical & Electrical engineering','name'=>'M10']
         );
         ClassRoom::create(
-            ['department'=>'Mechanical & Electrical engineering','number'=>11,'name'=>null]
+            ['department'=>'Mechanical & Electrical engineering','name'=>'M11']
         );
         ClassRoom::create(
-            ['department'=>'Mechanical & Electrical engineering','number'=>12,'name'=>null]
+            ['department'=>'Mechanical & Electrical engineering','name'=>'M12']
         );
 
         ClassRoom::create(
-            ['department'=>'Mechanical & Electrical engineering','number'=>null,'name'=>'LM1']
+            ['department'=>'Mechanical & Electrical engineering','name'=>'Labo.LM1']
         );
         ClassRoom::create(
-            ['department'=>'Mechanical & Electrical engineering','number'=>null,'name'=>'LM2']
+            ['department'=>'Mechanical & Electrical engineering','name'=>'Labo.LM2']
         );
         ClassRoom::create(
-            ['department'=>'Mechanical & Electrical engineering','number'=>null,'name'=>'LM1BIS']
+            ['department'=>'Mechanical & Electrical engineering','name'=>'Labo.LM1BIS']
         );
         ClassRoom::create(
-            ['department'=>'Mechanical & Electrical engineering','number'=>null,'name'=>'LM2BIS']
+            ['department'=>'Mechanical & Electrical engineering','name'=>'Labo.LM2BIS']
         );
 
         //Management classrooms;
         ClassRoom::create(
-            ['department'=>'Management','number'=>1,'name'=>null]
+            ['department'=>'Management','name'=>'G1']
         );
         ClassRoom::create(
-            ['department'=>'Management','number'=>2,'name'=>null]
+            ['department'=>'Management','name'=>'G2']
         );
         ClassRoom::create(
-            ['department'=>'Management','number'=>3,'name'=>null]
+            ['department'=>'Management','name'=>'G3']
         );
         ClassRoom::create(
-            ['department'=>'Management','number'=>4,'name'=>null]
+            ['department'=>'Management','name'=>'G4']
         );
         ClassRoom::create(
-            ['department'=>'Management','number'=>5,'name'=>null]
+            ['department'=>'Management','name'=>'G5']
         );
         ClassRoom::create(
-            ['department'=>'Management','number'=>6,'name'=>null]
+            ['department'=>'Management','name'=>'G6']
         );
         ClassRoom::create(
-            ['department'=>'Management','number'=>7,'name'=>null]
+            ['department'=>'Management','name'=>'G7']
         );
         ClassRoom::create(
-            ['department'=>'Management','number'=>8,'name'=>null]
+            ['department'=>'Management','name'=>'G8']
         );
         ClassRoom::create(
-            ['department'=>'Management','number'=>9,'name'=>null]
+            ['department'=>'Management','name'=>'G9']
         );
         ClassRoom::create(
-            ['department'=>'Management','number'=>10,'name'=>null]
+            ['department'=>'Management','name'=>'G10']
         );
         ClassRoom::create(
-            ['department'=>'Management','number'=>11,'name'=>null]
+            ['department'=>'Management','name'=>'G11']
         );
         ClassRoom::create(
-            ['department'=>'Management','number'=>12,'name'=>null]
+            ['department'=>'Management','name'=>'G12']
         );
         ClassRoom::create(
-            ['department'=>'Management','number'=>null,'name'=>'LG1']
+            ['department'=>'Management','name'=>'Labo.LG1']
         );
         ClassRoom::create(
-            ['department'=>'Management','number'=>null,'name'=>'LG2']
+            ['department'=>'Management','name'=>'Labo.LG2']
         );
         ClassRoom::create(
-            ['department'=>'Management','number'=>null,'name'=>'LG1BIS']
+            ['department'=>'Management','name'=>'Labo.LG1BIS']
         );
         ClassRoom::create(
-            ['department'=>'Management','number'=>null,'name'=>'LG2BIS']
+            ['department'=>'Management','name'=>'Labo.LG2BIS']
         );
 
     }

@@ -15,6 +15,7 @@ class CreateClassGroupsTable extends Migration
     {
         Schema::create('class_groups', function (Blueprint $table) {
             $table->id();
+            $table->string('department');
             $table->string('name');
             $table->timestamps();
         });

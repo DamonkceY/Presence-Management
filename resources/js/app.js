@@ -30,6 +30,8 @@ Vue.component('edit-professor', require('./components/Professor/EditProfessor.vu
 Vue.component('add-professor', require('./components/Professor/AddProfessor.vue').default);
 
 Vue.component('supervisor-menu', require('./components/SupervisorMenu/SupervisorMenu.vue').default);
+Vue.component('time-table', require('./components/Timetable/Timetable.vue').default);
+Vue.component('show-timetable', require('./components/Timetable/ShowTimetable.vue').default);
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application
